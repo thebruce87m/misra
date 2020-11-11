@@ -37,12 +37,12 @@ note 9027: an enum value is not an appropriate left operand to | [MISRA 2012 Rul
 
 ```
 typedef uint8_t MCP23S17_IOCON_Val_t;
-#define MCP23S17_IOCON_BANK          (( MCP23S17_GPIO_Pin_t ) 0x80U)
-#define MCP23S17_IOCON_MIRROR        (( MCP23S17_GPIO_Pin_t ) 0x40U)
-#define MCP23S17_IOCON_SEQOP         (( MCP23S17_GPIO_Pin_t ) 0x20U)
-#define MCP23S17_IOCON_DISSLW        (( MCP23S17_GPIO_Pin_t ) 0x10U)
-#define MCP23S17_IOCON_HAEN          (( MCP23S17_GPIO_Pin_t ) 0x08U)
-#define MCP23S17_IOCON_ODR           (( MCP23S17_GPIO_Pin_t ) 0x04U)
-#define MCP23S17_IOCON_INTPOL        (( MCP23S17_GPIO_Pin_t ) 0x02U)
-#define MCP23S17_IOCON_UNIMPLEMENTED (( MCP23S17_GPIO_Pin_t ) 0x01U)
+#define MCP23S17_IOCON_BANK          (( MCP23S17_IOCON_Val_t ) 0x80U)
+#define MCP23S17_IOCON_MIRROR        (( MCP23S17_IOCON_Val_t ) 0x40U)
+#define MCP23S17_IOCON_SEQOP         (( MCP23S17_IOCON_Val_t ) 0x20U)
+#define MCP23S17_IOCON_DISSLW        (( MCP23S17_IOCON_Val_t ) 0x10U)
+#define MCP23S17_IOCON_HAEN          (( MCP23S17_IOCON_Val_t ) 0x08U)
+#define MCP23S17_IOCON_ODR           (( MCP23S17_IOCON_Val_t ) 0x04U)
+#define MCP23S17_IOCON_INTPOL        (( MCP23S17_IOCON_Val_t ) 0x02U)
+#define MCP23S17_IOCON_UNIMPLEMENTED (( MCP23S17_IOCON_Val_t ) 0x01U)
 ```
